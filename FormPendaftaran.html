@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moch Arisandi Jayanto_192410103064_PWeb_B_INFORMATIKA</title>
+</head>
+<body style="padding: 70px; background-color:rgb(135, 159, 160);  margin: 0;">
+    <hr size="3" color="rgb(0, 9, 9)">
+    <div style="background-color: rgb(149, 180, 180); height: 50px; padding: 10px 10px;">
+        <h1 style="text-align: center; margin-top: 10px; margin-bottom: 10px; font-family:'Courier New', Courier, monospace;">FORMULIR REGISTRASI PERTANIAN</h1>
+    </div>
+    <!-- DATA DIRI SENDIRI -->
+    <hr size="4" color="rgb(0, 9, 9)">
+    <h2>DATA DIRI :</h2>
+    <form action="#" method="POST">
+        <div>
+            <label for="nama" style="margin-left: 50px;"><b>Nama</b></label>
+            <a style="margin-left: 70px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="text" name="nama" id="nama" minlength="4" required>
+        </div>
+        <br>
+        <div>
+            <label for="nim" style="margin-left: 50px;"><b>Nim</b></label>
+            <a style="margin-left: 80px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="text" maxlength="12" name="nim" id="nim" required>
+        </div>
+        <br>
+        <div>
+            <label for="email" style="margin-left: 50px;"><b>Email</b></label>
+            <a style="margin-left: 70px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="email" name="email" placeholder="E-mail@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <label for="tanggal lahir" style="margin-left: 50px;"><b>Tanggal Lahir</b></label>
+            <a style="margin-left: 16px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="date" id="tanggal lahir" name="tanggal lahir" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone" style="margin-left: 50px;"><b>Nomor Telepon</b></label>
+            <a style="margin-left: 10px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="tel" id="phone" name="phone" required>
+        </div>
+        <br>
+        <div>
+            <label for="alamat" style="margin-left: 50px;"><b>Alamat</b></label>
+            <a style="margin-left: 65px;">:</a>
+            <textarea name="alamat" style="margin-left: 20px; background-color: rgb(247, 220, 171);" required></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="jenis kelamin" style="margin-left: 50px; "><b>Jenis Kelamin</b></label>
+            <a style="margin-left: 20px;">:</a>
+                <input style="margin-left: 20px; background-color: rgb(247, 220, 171)" type="radio" id="Laki-Laki" name="jenis kelamin" value="Laki-Laki" required>
+                <label for="Laki-Laki">Laki-Laki</label>
+                <input style="background-color: rgb(247, 220, 171)" type="radio" id="Perempuan" name="jenis kelamin" value="Perempuan" required>
+                <label for="Perempuan">Perempuan</label><br>
+        </div>
+        <br>
+        <div>
+            <label for="agama" style="margin-left: 50px;"><b>Agama</b></label>
+            <a style="margin-left: 70px;">:</a>
+            <select name="agama" style="margin-left: 20px; background-color: rgb(247, 220, 171);">
+                <optgroup label="Pilih Agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+                <option value="konghucu">Konghucu</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="golongan darah" style="margin-left: 50px;"><b>Golongan Darah</b></label>
+            <a style="margin-left: 5px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171)" type="radio" id="A" name="golongan darah" value="A" required>
+                <label for="A">A</label>
+                <input type="radio" id="B" name="golongan darah" value="B" required>
+                <label for="B">B</label>
+                <input type="radio" id="AB" name="golongan darah" value="AB" required>
+                <label for="AB">AB</label>
+                <input type="radio" id="O" name="golongan darah" value="O" required>
+                <label for="O">O</label>
+        </div>
+        <br>
+        <div>
+            <label for="hobi" style="margin-left: 50px;"><b>Hobi</b></label>
+            <a style="margin-left: 85px;">:</a>
+            <input style="margin-left: 20px; background-color: rgb(247, 220, 171);" type="text" name="Hobi" id="Hobi" required>
+        </div>
+        <br>
+        <div>
+            <label for="password" style="margin-left: 50px;"><b>Password</b></label>
+            <a style="margin-left: 55px;">:</a>
+            <input type="password" style="margin-left: 20px; background-color: rgb(247, 220, 171);" minlength="8" name="password" id="password" required>
+        </div>
+        <br>
+        <div>
+            <input style="margin-left: 50px; background-color: rgb(247, 220, 171)" type="checkbox" id="setuju" name="setuju" value="setuju" required>
+            <label for="setuju"> Saya setuju dengan persyaratan yang ada</label><br>
+        </div>
+        <br>
+        <div>
+            <input style="margin-left: 160px; background-color: rgb(235, 248, 118);" type="submit" value="Kirim">
+            <input style="margin-left: 20px; background-color: rgb(235, 248, 118);" type="Reset">
+        </div>
+        <hr size="3" color="rgb(0, 9, 9)">
+    <footer>
+            <small style="margin-left: 40%; font-size: medium;">Copyright &copy; 2020 - Moch Arisandi jayanto</small>
+    </footer>
+</body>
+</html>
